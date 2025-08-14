@@ -1,6 +1,6 @@
 
 # financial management website 
-Hello, this site is a site that allows online company establishment and accounting transactions to be done easily.  The user login panel is active. It is not a very detailed site. It is only intended to improve myself here.
+Hello, this site is a site that allows online company establishment and accounting transactions to be done easily.  The user login panel and email chat widget are active. It is not a very detailed site. It is only intended to improve myself here.
 
 
 ## Tech Stack
