@@ -1,0 +1,23 @@
+/* İkonun ve formun sayfanın altında sabit kalmasını sağlar */
+.fixed-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 50;
+}
+        
+/*form ve ikonun özel stilleri */
+#email-form-container {
+    bottom: 6rem; /* İkonun hemen üstünde başlaması için */
+    right: 0;
+    width: 320px; 
+    transform: scale(0.95);
+    opacity: 0;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+ 
+#email-form-container.active {
+    transform: scale(1);
+    opacity: 1;
+}

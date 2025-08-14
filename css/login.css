@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #c07eee, #50e8b5, #2654dd);
+}
+
+.login-container {
+    background-color: rgba(6, 6, 6, 0.1); /* yarı şeffaf beyaz kutu */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+    width: 800px;
+    text-align: center;
+    color: white;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6A5ACD;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-container button:hover {
+    background-color: #9370DB;
+}
